@@ -12,5 +12,22 @@ Countless individuals with diabetes type 1 struggle with accurately predicting i
 
 ![Image](image9.png)
 
-_Tools used: data preprocessing and analysis in Python [(view notebook)](0_BackgroundResearch_1.ipynb) + data storage in PostgreSQL + visualization in Tableau (view dashboard)._
+_Tools used: data preprocessing and analysis in Python ([view notebook1](0_BackgroundResearch_1.ipynb), [view notebook2](0_BackgroundResearch_2.ipynb)) + data storage in PostgreSQL + visualization in Tableau [(view dashboard)](https://public.tableau.com/views/DiabetesApp_0_BackgroundResearch/0_Backgroundresearch?:language=en-US&:display_count=n&:origin=viz_share_link)._
 
+## DATA
+Data from one patient was collected to create a core concept for the AI system: pre-meal blood glucose, carb intake, injected insulin doses (manual Excel & dietary app); physical activity (Health App/Apple Watch); and weather records (VisualCrossing.com).
+## PROCEDURE
+The project consisted of the following steps:
+### 1. DATA ANALYSIS
+The analysis involves merging, preprocessing, and performing descriptive and predictive analysis on the collected data.
+
+![Image](image1.png)
+
+_Tools used: Matplotlib sankey diagram in Python [(view notebook)](ProcessSankeys.ipynb)_
+
+#### 1_1_Data merging
+Collected data from diverse sources were consolidated into a single dataset. The visualization shows a well-distributed pattern of data over time, with higher density in the Health App and weather data. This is because the patient-collected data is recorded only before meals, while other data points are recorded more frequently.
+
+![Image](image7.png)
+
+_Tools used: data manipulation in Python [(view notebook)](1_1_Merging.ipynb) + visualization in Tableau [(view dashboard)](https://public.tableau.com/views/DiabetesApp_1_1_Merging/1_1_Merging?:language=en-US&:display_count=n&:origin=viz_share_link).
