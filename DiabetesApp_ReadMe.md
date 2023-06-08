@@ -10,3 +10,7 @@ The background research examines the global distribution of type 1 diabetes and 
 According to the International Diabetes Federation (IDF), around 10% of all people with diabetes have type 1 diabetes and  the total number of people living with diabetes is projected to rise to 643 million by 2030 and 783 million by 2045 [1]. The analysis of the data presented in the IDF's 2022 report [2] reveals the highest prevalence rates in specific regions, namely Northern Europe (Finland, Sweden, Norway), Canada, and Gulf states (Saudi Arabia, Qatar, and Kuwait). 
 Countless individuals with diabetes type 1 struggle with accurately predicting insulin doses. The traditional calculation includes two parts: high blood glucose correction + carbohydrate coverage [3], but other factors affecting insulin sensitivity are not taken into account  [4]. The visualization of the factors showcases both the existing factors that are currently considered and the numerous untapped factors that could enhance the accuracy of insulin dosage calculations. This project specifically focuses on a few factors that are easily collectible and quantifiable.
 
+![Image](image9.png)
+
+_Tools used: data preprocessing and analysis in Python [(view notebook)](0_BackgroundResearch_1.ipynb) + data storage in PostgreSQL + visualization in Tableau (view dashboard)._
+
